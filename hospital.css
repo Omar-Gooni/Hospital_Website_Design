@@ -1,0 +1,658 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+:root{
+    --color1:blue;
+    --color2:whitesmoke;
+}
+section .header{
+    width: 100%;
+    background:var(--color2);
+  height: 100px;
+  
+
+    }
+   header label{
+        position: absolute;
+        right: 3%;
+        top: 20px;
+        color: var(--color1);
+        font-size: 1.5em;
+        display: none;
+    }
+    #showmenu{
+        display: none;
+    }
+    
+    .gooni .nav{
+        width: 50%;
+        float: left;
+       
+
+    }
+    
+    section .header .gooni .nav{
+        /* margin-right: 50px; */
+        margin-top: 30px;
+        /* background: yellow; */
+        margin-left: 30%;
+        
+    }
+    section .header .gooni .nav a{
+        padding: 0px 10px;
+        font-size: 1.5em;
+        font-weight: 600;
+        text-decoration: none;
+        /* color: rgb(52, 50, 50); */
+
+    }
+    .header .nav a:hover{
+        color: var(--color2);
+        background: var(--color1);
+        border-radius: 10px;
+    }
+    .header .nav a.active{
+        padding: 20px;
+        background: blue;
+        color:white;
+        border-radius: 10px;
+        border: 1px solid var(--color1);
+     }
+    .header .nav a.active:hover{
+        background: var(--color2);
+        color: var(--color1);
+        
+    }
+  
+    section .header .gooni .icon{ 
+        margin-top: 20px;
+        /* background: greenyellow; */
+        font-size: 1.5em;
+        width: 20%;
+        float: left;
+        position: relative;
+      
+      
+     
+
+    } 
+    section .header .gooni .icon .omar{
+        font-size: 3em;
+        color: var(--color1);
+        /* margin-left: 50px; */
+    }
+    section .header .gooni .icon img{
+       height: 100px;
+       width: 60%;
+       margin-top: -20px;
+       margin-left: 60px;
+       border-radius: 50%;
+       
+    }
+    section .header .gooni .icon h1{
+    position: absolute;
+    left: 100%;
+    margin-top: -80px;
+    color: var(--color1);
+    font-weight: 700;
+ 
+
+    }
+    
+    .home{
+        width: 100%;
+        background: linear-gradient(rgba(54, 56, 173, 0.8), rgba(60, 62, 183, 0.8), rgba(81, 83, 202, 0.8)), url(dr3.webp);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 500px;
+        
+    }
+    .home .div{
+    text-align: center;
+    color: var(--color2);
+    /* background: red; */
+    padding-top: 100px;
+    height: 400px;
+    
+    }
+    .home .div h1{
+        text-transform: capitalize;
+        font-size: 3.5em;
+       
+        
+    }
+    .home .div p{
+        padding-top: 20px;
+        font-size: 1em;
+    }
+    .home .div .btn{
+        margin-top: 20px;
+        padding: 10px 30px;
+        color: var(--color1);
+        border: none;
+        border-radius: 10px;
+    }
+    .about{
+        clear: both;
+        display: table;
+        content: "";
+        width: 100%;
+     
+    }
+    .about .foter .sawir ,  .about .foter .content{
+        width: 45%;
+        float: left;
+        margin: 1%;
+        
+    }
+    
+    
+  
+.about .foter .sawir img{
+    width: 100%;
+    height: 525px;
+}
+.about .foter .content h3{
+ color: var(--color1);
+ font-size: 1.5em;
+ margin-top: 10px;
+ text-transform: uppercase;
+ margin-bottom: 10px;
+}
+.about .foter .content .icon{
+    color: var(--color1);
+    font-size: 2em;
+
+    margin-bottom: 10px;
+   
+}
+.about .foter .content .icon span{
+    color: grey;
+}
+.about .foter .content h1{
+font-size: 2em;
+font-weight: 600;
+text-transform: capitalize;
+
+}
+.about .foter .content p{
+    color: rgb(100, 99, 99);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about .foter .content .icon22 div{
+    width: 40%;
+    float: left;
+
+    margin-bottom: 5%;
+    
+   
+
+}
+.about .foter .content .icon22 h4{
+    /* text-align: center; */
+    margin-top: -40px;
+    margin-left: 60px;
+}
+
+.about .foter .content .icon22 .king{
+    color: var(--color1);
+    border: 2px solid var(--color1);
+    border-radius: 50%;
+    padding: 18px;
+}
+.btn22{
+
+    padding: 20px 60px;
+    color: var(--color2);
+    border: none;
+    border-radius: 10px;
+    background: var(--color1);
+    margin-left: 30px;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.main{
+    clear: both;
+    display: table;
+    content: "";
+    width: 100%;
+}
+.main h5{
+    text-align: center;
+    
+}
+.main h2{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 600;
+    color: var(--color1);
+}
+.main .row div{
+    width: 30%;
+    float: left;
+    margin: 1%;
+}
+.main .row img{
+    width: 100%;
+    height: 200px;
+}
+.main .row h1{
+    color: var(--color1);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.sawir11{
+    padding: 10px 30px;
+   color: aliceblue;
+    border: none;
+    border-radius: 10px;
+    background: var(--color1);
+    margin-left: 30px;
+    font-size: 0.5em;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.Doctors{
+clear: both;
+display: table;
+content: "";
+width: 100%;
+}
+.Doctors h3{
+    text-align: center;
+    color: var(--color1);
+    font-size: 2em;
+    font-weight: 700;
+    margin: 20px 0px;
+}
+.Doctors .taqtarda div{
+    width: 30%;
+    float: left;
+    margin: 1%;
+}
+.Doctors .taqtarda img{
+    width: 100%;
+    height: 200px;
+}
+.Doctors .taqtarda p{
+    color: var(--color1);
+    font-size: 1.5em;
+    font-weight: 700;
+   margin-left: 10px;
+   font-family: initial;
+
+}
+.Doctors .taqtarda h1{
+    margin-left: 10px;
+}
+.opening{
+    clear: both;
+    display: table;
+    content: " ";
+    width: 100%;
+    color: var(--color2);
+    background: var(--color1);
+}
+.opening .open div{
+    width: 30%;
+    float: left;
+    margin: 1%;
+}
+.opening .open a{
+    color: var(--color2);
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    font-family: initial;
+    margin-left: 10px;
+
+}
+.opening .open{
+margin-left: 6%;
+
+}
+.quee{
+    font-size: 3em;
+}
+.hours{
+    width: 100%;
+    background: linear-gradient(rgba(54, 56, 173, 0.8), rgba(60, 62, 183, 0.8), rgba(81, 83, 202, 0.8)), url(../images/dr3.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 450px;
+    /* text-align: center; */
+}
+.hours h1, .hours h3{
+    margin-left: 40%;
+    padding: 15px 0px;
+    color: var(--color2);
+}
+.hours h1{
+    font-size: 3em;
+    font-weight: 700;
+    font-family: initial;
+    /* margin-left: 39%; */
+    /* padding: 10px 20px; */
+}
+.our{
+    clear: both;
+    display: table;
+    content: "";
+    width: 100%; 
+}
+.our h1{
+    text-align: center;
+    color: var(--color1);
+    font-size: 3em;
+    font-weight: 700;
+    font-family: initial;
+    text-transform: capitalize;
+}
+.box1{
+    clear: both;
+    display: table;
+    content: "";
+    position: relative;
+}
+.box1 .box11{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: var(--color1);
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 60px;
+    color: var(--color2);
+   
+}
+.box1 .box11 h1{
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.qormo{
+    clear: both;
+    display: table;
+    content: "";
+    
+    width: 100%;
+    border-right: 2px solid var(--color1);
+
+}
+.qormo div{
+    width: 50%;
+  margin-top: 2%;
+  margin-left: 30%;
+  padding: 10px 0px;
+  background: var(--color1);
+  color: var(--color2);
+ 
+}
+.qormo span{
+    background: var(--color2);
+    color: var(--color1);
+    border: 2px solid var(--color2);
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+.qormo p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 1024px){
+    section .header .gooni .icon h1{
+        width: 100%;
+    }
+    .header .gooni .icon img{
+        width: 100%;
+        margin-right: 20px;
+    }
+    .header label{
+        display: inline-block;
+    }
+   
+    .header .nav{
+        display:none;
+        width: 100%;
+        margin-top: 10px;
+        background: whitesmoke;
+        
+    }
+    .header label{
+        display: inline-block;
+    }
+    .header .nav a{
+        display: block;
+        padding: 10px;
+        text-align: center;
+        border: 1px solid wheat;
+        border-radius: 20px;
+    }
+    #showmenu:checked ~.nav{
+        display: inline-block;
+    }
+    .home{
+        width: 100%;
+    }
+    .home .div{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .about{
+        width: 100%;
+    }
+    .about .foter .sawir ,  .about .foter .content{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .main{
+        width: 100%;
+    }
+    .main .row{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .main .row div{
+        width: 45%;
+        margin-left: 20px;
+    }
+    .Doctors{
+        width: 100%;
+    }
+    .Doctors .taqtarda{
+        width: 100%;
+    }
+    .Doctors .taqtarda div{
+        width: 45%;
+        margin-left: 20px;
+    }
+   
+  
+}
+@media screen and (max-width: 768px){
+    section .header .gooni .icon h1{
+        width: 100%;
+    }
+    .header .gooni .icon img{
+        width: 100%;
+    }
+    .header label{
+        display: inline-block;
+    }
+    .header .nav{
+        display: none;
+        width: 100%;
+        background: #f1f1f1;
+        border-radius: 10px;
+    }
+    .header .nav a{
+        display: block;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+    #showmenu:checked ~ .nav{
+        display: block;
+    }
+    .home{
+        width: 100%;
+    }
+    .home .div{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .about{
+        width: 100%;
+    }
+    .about .foter .sawir ,  .about .foter .content{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .main{
+        width: 100%;
+    }
+    .main .row{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .main .row div{
+        width: 100%;
+    }
+    .Doctors{
+        width: 100%;
+    }
+    .Doctors .taqtarda{
+        width: 100%;
+    }
+    .Doctors .taqtarda div{
+        width: 100%;
+    }
+   
+   
+    
+    
+}
+@media screen and (max-width: 480px){
+    section .header .gooni .icon h1{
+        width: 100%;
+    }
+    .header .gooni .icon img{
+        width: 100%;
+    }
+    .header label{
+        display: inline-block;
+    }
+    .header .nav{
+        display: none;
+        width: 100%;
+        background: #f1f1f1;
+        border-radius: 10px;
+    }
+    .header .nav a{
+        display: block;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid rgba(0,0,0,0.1);
+    }
+    #showmenu:checked ~ .nav{
+        display: block;
+    }
+    .home{
+        width: 100%;
+    }
+    .home .div{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .about{
+        width: 100%;
+    }
+    .about .foter .sawir ,  .about .foter .content{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .main{
+        width: 100%;
+    }
+    .main .row{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .main .row div{
+        width: 100%;
+    }
+    .Doctors{
+        width: 100%;
+    }
+    .Doctors .taqtarda{
+        width: 100%;
+    }
+    .Doctors .taqtarda div{
+        width: 100%;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+   
+  
+
+
+
+
+
